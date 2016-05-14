@@ -15,7 +15,7 @@ def intro():
 
 def str_rev():
 	'''
-	Pulls the string
+	Pulls the global string function assigned with string assigned by the intro() function, reverses it and 
 	'''
 	global string
 	rev_string = string[::-1]
