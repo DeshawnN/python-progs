@@ -27,6 +27,9 @@ Adds the scripts(s): String Reverser, Vowel Counter, Palindrome Checker, Word Co
 #### 17th
 Adds the script: FizzBuzzinator
 
+#### 19th
+Adds the script: File Organizer
+
 ## Code Overview
 
 ### Strings
@@ -53,3 +56,8 @@ This program is a little bit more complex than anything in my strings section.
 This program was designed from the ground up to help people struggling to understand the logic behind the FizzBuzz problem by letting them make their own custom problems without having to muck around with any code.
 
 Currently it's a bit bare, but I'll keep adding to it until I'm satisfied with it.
+
+### Misc
+
+#### File Organizer
+The Documentation for that an be found in its own folder.
