@@ -1,11 +1,13 @@
 num_array = [num for num in range(13)]
-
+fizz_counter, buzz_counter, fizzbuzz_counter = 0, 0, 0
+fizz_nums, buzz_nums, fizzbuzz_nums = [], [], []
 def main():
-
-	fizz_counter, buzz_counter, fizzbuzz_counter = [0, 0, 0]
-	fizz_nums, buzz_nums, fizzbuzz_nums = [], [], []
-	
 	print 'Welcome to the FizzBuzzinator!'
+	fizzbuzz_gen()
+		
+
+def fizzbuzz_gen():
+
 	print 'Please enter a two different numbers (from 1 to 12) seperated by a comma  \',\' (and no spaces!): '
 
 	inp = raw_input()
@@ -84,11 +86,12 @@ def main():
 				
 			else:
 				print num
+
 	print 'Number of Fizz ticks: ' + str(fizz_counter)
 	print 'Numbers that Ticked Fizz:', fizz_nums
 	print 'Number of Buzz ticks: ' + str(buzz_counter)
 	print 'Numbers that Ticked Buzz:', buzz_nums
 	print 'Number of FizzBuzz ticks: ' + str(fizzbuzz_counter)
 	print 'Numbers that Ticked FizzBuzz:', fizzbuzz_nums
-			
+
 main()
